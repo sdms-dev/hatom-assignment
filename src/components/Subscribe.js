@@ -6,7 +6,7 @@ export default function Subscribe() {
   const [email, setEmail] = useState('');
   const [emailErr, setEmailErr] = useState('');
   
-  const submit = () =>{
+  const submit = () =>{ 
     let isValid = true;
     if (email === '') {
       setEmailErr('Please enter valid email');
