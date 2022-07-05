@@ -1,0 +1,125 @@
+// fontfamily
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-SemiBold.eot');
+    src: url('../fonts/Rubik-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-SemiBold.woff2') format('woff2'),
+        url('../fonts/Rubik-SemiBold.woff') format('woff'),
+        url('../fonts/Rubik-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.eot');
+    src: url('../fonts/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-Bold.woff2') format('woff2'),
+        url('../fonts/Rubik-Bold.woff') format('woff'),
+        url('../fonts/Rubik-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.eot');
+    src: url('../fonts/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff'),
+        url('../fonts/Rubik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.eot');
+    src: url('../fonts/Rubik-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff'),
+        url('../fonts/Rubik-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeueHaasGroteskText Pro';
+    src: url('../fonts/NHaasGroteskTXPro-75Bd.eot');
+    src: url('../fonts/NHaasGroteskTXPro-75Bd.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NHaasGroteskTXPro-75Bd.woff2') format('woff2'),
+        url('../fonts/NHaasGroteskTXPro-75Bd.woff') format('woff'),
+        url('../fonts/NHaasGroteskTXPro-75Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeueHaasGroteskText Pro';
+    src: url('../fonts/NHaasGroteskTXPro-55Rg.eot');
+    src: url('../fonts/NHaasGroteskTXPro-55Rg.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NHaasGroteskTXPro-55Rg.woff2') format('woff2'),
+        url('../fonts/NHaasGroteskTXPro-55Rg.woff') format('woff'),
+        url('../fonts/NHaasGroteskTXPro-55Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeueHaasGroteskText Pro Md';
+    src: url('../fonts/NHaasGroteskTXPro-65Md.eot');
+    src: url('../fonts/NHaasGroteskTXPro-65Md.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NHaasGroteskTXPro-65Md.woff2') format('woff2'),
+        url('../fonts/NHaasGroteskTXPro-65Md.woff') format('woff'),
+        url('../fonts/NHaasGroteskTXPro-65Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+// color
+$black : #000000;
+$white : #ffffff;
+$lightblack : #222222;
+$green: #179C64;
+$primary :$green;
+$secondary :$black;
+$body-color: $lightblack;
+
+
+// fonts
+
+$font-family-base: NeueHaasGroteskText Pro;
+$font-size-base: 1.125rem;
+$font-size: $font-size-base;
+
+$h1-font-size: $font-size-base * 4.4 !default;
+$h2-font-size: $font-size-base * 2.22 !default;
+$h3-font-size: $font-size-base * 1.88 !default;
+$h4-font-size: $font-size-base * 1.77 !default;
+$h5-font-size: $font-size-base !default;
+$h6-font-size: $font-size-base * 0.875 !default; 
+
+// btn 
+$btn-border-radius: 0.66rem;
+$btn-font-size: 0.88rem;
+
+// input styles
+$input-font-size: $font-size-base;
+$input-border-radius: 0.66rem;
+
+
+@import "../scss/bootstrap.scss";
+
+$btnGradient: linear-gradient(270deg, #1B4347 -1.39%, #3D906A 99.46%) !important; 
+$font-rubak: 'Rubik';
