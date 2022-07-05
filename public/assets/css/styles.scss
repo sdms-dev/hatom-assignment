@@ -551,6 +551,7 @@ footer {
         font-family: 'NeueHaasGroteskText Pro Md';
 
     }
+   
 }
 .footer-links-main {
     padding-left: 75px;
@@ -682,4 +683,41 @@ ul.footer-link{
     .icon{
         margin-right: 7px;
     }
+}
+.sprite-wrap {
+    // position: fixed;
+    // width: 250px !important;
+    // height: 250px !important;
+    // z-index: 9 !important;
+    // top: 40vw !important;
+    // left: 50% !important;
+    // transform: translate(-30%, -50%) !important;
+    
+    .img-wrapper{
+        width: 280px;
+        height: 280px;
+        margin: auto;
+        background-size: 100%;
+        background-image: url(../images/coin-sequence.png);
+
+        @include xl{
+            width: 220px;
+            height: 220px;
+        }
+
+    }   
+}
+.sprite-wrap-main{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    padding-top: 36vw;
+    padding-left: 90px;
+    overflow: hidden;
+    // .pin-spacer{
+    //     height: auto !important;
+    //     padding-bottom: 0 !important;
+    // }
 }

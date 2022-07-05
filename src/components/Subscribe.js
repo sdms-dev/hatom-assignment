@@ -9,12 +9,12 @@ export default function Subscribe() {
   const submit = () =>{ 
     let isValid = true;
     if (email === '') {
-      setEmailErr('Please enter valid email');
+      setEmailErr('Please enter valid email address');
       isValid = false;
     }
     if (email !== '') {
       if (!CustomFunctions.validateEmail(email)) {
-        setEmailErr('Invalid email');
+        setEmailErr('Please enter valid email address');
         isValid = false;
       }
     }

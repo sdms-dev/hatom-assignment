@@ -1,6 +1,29 @@
-import React from 'react'
+import { React, useEffect} from 'react';
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-export default function HomePage() { 
+gsap.registerPlugin(ScrollTrigger);
+var frame_count  = 10.7,
+offset_value = 100;
+
+export default function HomePage() {
+  useEffect(() => {
+    gsap.to(".img-rotate", {
+      backgroundPositionY: (-offset_value * frame_count * 2) + "%",
+      ease: "steps(" + frame_count + ")", // use a stepped ease for the sprite sheet
+      scrollTrigger: {
+        trigger: ".sprite-wrap",
+        start: "-100% top",
+        end: "+=" + (frame_count * offset_value),
+        pin: true,
+        scrub: true, 
+        // markers: true
+        
+      }
+    });
+  }, []);
+
+
   return (
     <>
     <section className="banner-section">
@@ -15,6 +38,7 @@ export default function HomePage() {
         </div>
       </div>
     </section>
+    
 
     <section className="d-none d-lg-block">
       <div className="container">
@@ -31,7 +55,7 @@ export default function HomePage() {
          </div>   
       </div>
     </section> 
-
+   
     <section className="features-wrapper">
       <div className="container p-0">
         <div className="title-section">
@@ -40,9 +64,9 @@ export default function HomePage() {
         <div className="row g-0 position-relative">
           <div className="col lines-bg d-block d-xl-none">
             <img src="assets/images/mobile-linesbg.svg" alt="icon"/>
-            <div className="coin-image">
+            {/* <div className="coin-image">
               <img src="assets/images/coin-image.png" alt="icon"/>
-            </div>
+            </div> */}
           </div>
           <div className="col left-calumn">
             <div className="features-text">
@@ -57,9 +81,9 @@ export default function HomePage() {
           </div>
           <div className="col lines-bg d-none d-xl-block">
             <img src="assets/images/linesbg.svg" alt="icon"/>
-            <div className="coin-image">
+            {/* <div className="coin-image">
               <img src="assets/images/coin-image.png" alt="icon"/>
-            </div>
+            </div> */}
           </div>
           <div className="col right-calumn">
             <div className="features-text mb-0">
@@ -74,7 +98,7 @@ export default function HomePage() {
         </div>
       </div>
     </section>
-    
+       
     <section className="d-block d-lg-none">
       <div className="container">
          <div className="devident-section">
@@ -90,6 +114,12 @@ export default function HomePage() {
          </div>   
       </div>
     </section> 
+     <section className='sprite-wrap-main'>
+      <div className="sprite-wrap">
+        <div className="img-wrapper img-rotate"></div>
+      </div>   
+    </section> 
+    
     </>
   )
 }
