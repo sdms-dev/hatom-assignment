@@ -2,3 +2,10 @@
   color: red;
 }
 
+.footer .app-btn {
+  max-width: 79px;
+  margin-left:auto ;
+}
+.app-btn {
+  padding: 16px 20px !important;
+}
