@@ -8,7 +8,6 @@ class CustomFunctions extends Component {
     return emailReg.test(email);
   }
 
-
 }
 
 export default new CustomFunctions();
