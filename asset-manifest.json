@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hatom-assignment/static/css/main.bbd30cdd.css",
-    "main.js": "/hatom-assignment/static/js/main.15a30014.js",
+    "main.css": "/hatom-assignment/static/css/main.7f2beaee.css",
+    "main.js": "/hatom-assignment/static/js/main.d091b43c.js",
     "static/js/787.6dfd95e4.chunk.js": "/hatom-assignment/static/js/787.6dfd95e4.chunk.js",
     "index.html": "/hatom-assignment/index.html",
-    "main.bbd30cdd.css.map": "/hatom-assignment/static/css/main.bbd30cdd.css.map",
-    "main.15a30014.js.map": "/hatom-assignment/static/js/main.15a30014.js.map",
+    "main.7f2beaee.css.map": "/hatom-assignment/static/css/main.7f2beaee.css.map",
+    "main.d091b43c.js.map": "/hatom-assignment/static/js/main.d091b43c.js.map",
     "787.6dfd95e4.chunk.js.map": "/hatom-assignment/static/js/787.6dfd95e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbd30cdd.css",
-    "static/js/main.15a30014.js"
+    "static/css/main.7f2beaee.css",
+    "static/js/main.d091b43c.js"
   ]
 }

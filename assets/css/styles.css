@@ -12898,6 +12898,7 @@ nav ul.navbar-nav li a.nav-link::before {
 }
 .features-wrapper .col.lines-bg {
   padding: 15px;
+  margin: 0 0 0 -100px;
 }
 @media (max-width: 1199px) {
   .features-wrapper .col.lines-bg {
@@ -13265,7 +13266,7 @@ ul.footer-link li a:hover {
   background-size: 100%;
   background-image: url(../images/coin-sequence.png);
 }
-@media (max-width: 1440px) {
+@media (max-width: 767px) {
   .sprite-wrap .img-wrapper {
     width: 220px;
     height: 220px;

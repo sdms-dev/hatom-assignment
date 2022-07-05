@@ -357,9 +357,10 @@ nav{
     }
     .col.lines-bg {
         padding: 15px;
+        margin: 0 0 0 -100px;
 
         @include lg{
-            padding: 0;
+            padding: 0; 
             max-width: 380px;
             margin: auto;
         }
@@ -540,6 +541,7 @@ footer {
     padding: 100px 75px 50px 75px;
     background: #031222;
 
+   
     @include sm{
         padding: 65px 20px 20px 20px !important;
     }
@@ -700,7 +702,7 @@ ul.footer-link{
         background-size: 100%;
         background-image: url(../images/coin-sequence.png);
 
-        @include xl{
+        @include sm{
             width: 220px;
             height: 220px;
         }

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.7f2beaee.css","mappings":"AAAA,OACE,SACF,CAEA,iBAEE,gBAAiB,CADjB,cAEF,CACA,SACE,2BACF","sources":["App.css"],"sourcesContent":[".error{\n  color: red;\n}\n\n.footer .app-btn {\n  max-width: 79px;\n  margin-left:auto ;\n}\n.app-btn {\n  padding: 16px 20px !important;\n}\n"],"names":[],"sourceRoot":""}
