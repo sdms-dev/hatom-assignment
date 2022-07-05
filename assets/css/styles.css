@@ -13,7 +13,7 @@
   src: url("../fonts/Rubik-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-Bold.woff2") format("woff2"), url("../fonts/Rubik-Bold.woff") format("woff"), url("../fonts/Rubik-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
+  font-display: swap; 
 }
 @font-face {
   font-family: "Rubik";
