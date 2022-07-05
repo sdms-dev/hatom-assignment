@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hatom-assignment.github.io/static/css/main.bbd30cdd.css",
-    "main.js": "/hatom-assignment.github.io/static/js/main.0c7248da.js",
-    "static/js/787.6dfd95e4.chunk.js": "/hatom-assignment.github.io/static/js/787.6dfd95e4.chunk.js",
-    "index.html": "/hatom-assignment.github.io/index.html",
-    "main.bbd30cdd.css.map": "/hatom-assignment.github.io/static/css/main.bbd30cdd.css.map",
-    "main.0c7248da.js.map": "/hatom-assignment.github.io/static/js/main.0c7248da.js.map",
-    "787.6dfd95e4.chunk.js.map": "/hatom-assignment.github.io/static/js/787.6dfd95e4.chunk.js.map"
+    "main.css": "/static/css/main.bbd30cdd.css",
+    "main.js": "/static/js/main.d4026137.js",
+    "static/js/787.6dfd95e4.chunk.js": "/static/js/787.6dfd95e4.chunk.js",
+    "index.html": "/index.html",
+    "main.bbd30cdd.css.map": "/static/css/main.bbd30cdd.css.map",
+    "main.d4026137.js.map": "/static/js/main.d4026137.js.map",
+    "787.6dfd95e4.chunk.js.map": "/static/js/787.6dfd95e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bbd30cdd.css",
-    "static/js/main.0c7248da.js"
+    "static/js/main.d4026137.js"
   ]
 }
